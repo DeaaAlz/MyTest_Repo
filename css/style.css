@@ -39,4 +39,12 @@
 
 .mydiv:hover{
     border: 5px solid #111;
+
+}
+.mydiv i{
+    margin-left: 10px;
+    transition: 1s;
+}
+.mydiv:hover i{
+    transform: rotate(360deg);
 }
